@@ -1,0 +1,49 @@
+﻿  Source1.cpp
+C:\Users\81804\Desktop\repos\Exercise\Exercise\Source1.cpp(103): warning C4101: 'msg': ローカル変数は 1 度も使われていません。
+  Source2.cpp
+C:\Users\81804\Desktop\repos\Exercise\Exercise\Source2.cpp(109): warning C4101: 'msg': ローカル変数は 1 度も使われていません。
+  Source3.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\81804\Desktop\repos\Exercise\Exercise\Source3.cpp(230): warning C4101: 'msg': ローカル変数は 1 度も使われていません。
+  コードを生成中...
+Source2.obj : error LNK2005: "long __cdecl BuildDxDevice(struct HWND__ *,char const *)" (?BuildDxDevice@@YAJPEAUHWND__@@PEBD@Z) は既に Source1.obj で定義されています。
+Source2.obj : error LNK2005: "void __cdecl Draw(void)" (?Draw@@YAXXZ) は既に Source1.obj で定義されています。
+Source2.obj : error LNK2005: "long __cdecl InitD3d(struct HWND__ *,char const *)" (?InitD3d@@YAJPEAUHWND__@@PEBD@Z) は既に Source1.obj で定義されています。
+Source2.obj : error LNK2005: "void __cdecl InitPresentParameter(struct HWND__ *)" (?InitPresentParameter@@YAXPEAUHWND__@@@Z) は既に Source1.obj で定義されています。
+Source2.obj : error LNK2005: "__int64 __cdecl WndProc(struct HWND__ *,unsigned int,unsigned __int64,__int64)" (?WndProc@@YA_JPEAUHWND__@@I_K_J@Z) は既に Source1.obj で定義されています。
+Source2.obj : error LNK2005: "struct HWND__ * __cdecl createWindow(struct HINSTANCE__ *,struct HINSTANCE__ *,char *,int)" (?createWindow@@YAPEAUHWND__@@PEAUHINSTANCE__@@0PEADH@Z) は既に Source1.obj で定義されています。
+Source2.obj : error LNK2005: WinMain は既に Source1.obj で定義されています。
+Source2.obj : error LNK2005: "struct IDirect3D9 * pD3d" (?pD3d@@3PEAUIDirect3D9@@EA) は既に Source1.obj で定義されています。
+Source2.obj : error LNK2005: "struct IDirect3DDevice9 * pDevice" (?pDevice@@3PEAUIDirect3DDevice9@@EA) は既に Source1.obj で定義されています。
+Source2.obj : error LNK2005: "struct IDirect3DTexture9 * pTexture" (?pTexture@@3PEAUIDirect3DTexture9@@EA) は既に Source1.obj で定義されています。
+Source2.obj : error LNK2005: "struct _D3DPRESENT_PARAMETERS_ D3dPresentParameters" (?D3dPresentParameters@@3U_D3DPRESENT_PARAMETERS_@@A) は既に Source1.obj で定義されています。
+Source2.obj : error LNK2005: "struct CUSTOMVERTEX * CustomVertex" (?CustomVertex@@3PAUCUSTOMVERTEX@@A) は既に Source1.obj で定義されています。
+Source3.obj : error LNK2005: "long __cdecl BuildDxDevice(struct HWND__ *,char const *)" (?BuildDxDevice@@YAJPEAUHWND__@@PEBD@Z) は既に Source1.obj で定義されています。
+Source3.obj : error LNK2005: "void __cdecl Draw(void)" (?Draw@@YAXXZ) は既に Source1.obj で定義されています。
+Source3.obj : error LNK2005: "long __cdecl InitD3d(struct HWND__ *,char const *)" (?InitD3d@@YAJPEAUHWND__@@PEBD@Z) は既に Source1.obj で定義されています。
+Source3.obj : error LNK2005: "void __cdecl InitPresentParameter(struct HWND__ *)" (?InitPresentParameter@@YAXPEAUHWND__@@@Z) は既に Source1.obj で定義されています。
+Source3.obj : error LNK2005: "__int64 __cdecl WndProc(struct HWND__ *,unsigned int,unsigned __int64,__int64)" (?WndProc@@YA_JPEAUHWND__@@I_K_J@Z) は既に Source1.obj で定義されています。
+Source3.obj : error LNK2005: "struct HWND__ * __cdecl createWindow(struct HINSTANCE__ *,struct HINSTANCE__ *,char *,int)" (?createWindow@@YAPEAUHWND__@@PEAUHINSTANCE__@@0PEADH@Z) は既に Source1.obj で定義されています。
+Source3.obj : error LNK2005: WinMain は既に Source1.obj で定義されています。
+Source3.obj : error LNK2005: "struct IDirect3D9 * pD3d" (?pD3d@@3PEAUIDirect3D9@@EA) は既に Source1.obj で定義されています。
+Source3.obj : error LNK2005: "struct IDirect3DDevice9 * pDevice" (?pDevice@@3PEAUIDirect3DDevice9@@EA) は既に Source1.obj で定義されています。
+Source3.obj : error LNK2005: "struct IDirect3DTexture9 * pTexture" (?pTexture@@3PEAUIDirect3DTexture9@@EA) は既に Source1.obj で定義されています。
+Source3.obj : error LNK2005: "struct _D3DPRESENT_PARAMETERS_ D3dPresentParameters" (?D3dPresentParameters@@3U_D3DPRESENT_PARAMETERS_@@A) は既に Source1.obj で定義されています。
+Source3.obj : error LNK2005: "struct CUSTOMVERTEX * CustomVertex" (?CustomVertex@@3PAUCUSTOMVERTEX@@A) は既に Source1.obj で定義されています。
+Source1.obj : error LNK2019: 未解決の外部シンボル Direct3DCreate9 が関数 "long __cdecl BuildDxDevice(struct HWND__ *,char const *)" (?BuildDxDevice@@YAJPEAUHWND__@@PEBD@Z) で参照されました。
+Source2.obj : error LNK2001: 外部シンボル "Direct3DCreate9" は未解決です。
+Source3.obj : error LNK2001: 外部シンボル "Direct3DCreate9" は未解決です。
+Source1.obj : error LNK2019: 未解決の外部シンボル D3DXCreateTextureFromFileExA が関数 "long __cdecl InitD3d(struct HWND__ *,char const *)" (?InitD3d@@YAJPEAUHWND__@@PEBD@Z) で参照されました。
+Source2.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileExA" は未解決です。
+Source3.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileExA" は未解決です。
+Source2.obj : error LNK2019: 未解決の外部シンボル D3DXCreateTextureFromFileA が関数 WinMain で参照されました。
+Source3.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+Source3.obj : error LNK2019: 未解決の外部シンボル DirectInput8Create が関数 "long __cdecl InitDinput(struct HWND__ *)" (?InitDinput@@YAJPEAUHWND__@@@Z) で参照されました。
+Source3.obj : error LNK2001: 外部シンボル "IID_IDirectInput8A" は未解決です。
+Source3.obj : error LNK2001: 外部シンボル "GUID_SysKeyboard" は未解決です。
+Source3.obj : error LNK2001: 外部シンボル "c_dfDIKeyboard" は未解決です。
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib : warning LNK4272: ライブラリのコンピューターの種類 'x86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib : warning LNK4272: ライブラリのコンピューターの種類 'x86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\dxguid.lib : warning LNK4272: ライブラリのコンピューターの種類 'x86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\dinput8.lib : warning LNK4272: ライブラリのコンピューターの種類 'x86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Users\81804\Desktop\repos\Exercise\x64\Debug\Exercise.exe : fatal error LNK1120: 7 件の未解決の外部参照

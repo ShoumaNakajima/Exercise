@@ -1,0 +1,4 @@
+﻿  Source3.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\81804\Desktop\repos\Exercise\Exercise\Source3.cpp(230): warning C4101: 'msg': ローカル変数は 1 度も使われていません。
+  Exercise.vcxproj -> C:\Users\81804\Desktop\repos\Exercise\Debug\Exercise.exe
